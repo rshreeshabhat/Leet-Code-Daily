@@ -19,3 +19,4 @@ class Solution:
                 left = mid + 1  # Increase the speed
 
         return left  # `left` will be the minimum speed Koko needs
+                                
