@@ -3,11 +3,8 @@ class Solution:
         if len(nums) == len(set(nums)):
             return False
         return True
-        
-# Time complexity: O(n)
-# Space complexity: O(n)
 
-# Approach 2
+# or
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
