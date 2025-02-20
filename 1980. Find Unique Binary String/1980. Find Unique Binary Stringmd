@@ -1,0 +1,20 @@
+# 1980. Find Unique Binary String
+
+## Problem Statement
+Given an array of binary strings `nums`, return a binary string that is not present in `nums`. If there are multiple answers, you may return any of them.
+
+## Example
+Input: nums = ["01", "10"]
+Output: "00"
+
+Input: nums = ["00", "01"]
+Output: "11"
+
+## Constraints
+- `1 <= nums.length <= 16`
+- `nums[i].length == nums.length`
+- `nums[i]` is either '0' or '1'.
+- All the strings in `nums` are unique.
+
+## Solution
+To solve this problem, we can use a simple approach where we generate all possible binary strings of the given length and check which one is not present in the input array. Here is the Python code to achieve this:
